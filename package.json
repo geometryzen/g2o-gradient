@@ -1,7 +1,7 @@
 {
-    "name": "@geometryzen/my-lib",
-    "version": "0.9.18",
-    "description": "My TypeScript Library Template",
+    "name": "g2o-gradient",
+    "version": "0.9.0",
+    "description": "g2o LinearGradient and RadialGradient",
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
@@ -54,7 +54,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/geometryzen/my-lib.git"
+        "url": "git+https://github.com/g2o-gradient.git"
     },
     "author": {
         "name": "David Geo Holmes",
@@ -62,9 +62,12 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/geometryzen/my-lib/issues"
+        "url": "https://github.com/g2o-gradient/issues"
     },
-    "homepage": "https://github.com/geometryzen/my-lib#readme",
+    "homepage": "https://github.com/g2o-gradient#readme",
+    "peerDependencies": {
+        "g2o": "^0.9.161"
+    },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.7",
         "@rollup/plugin-node-resolve": "^15.2.3",

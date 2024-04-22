@@ -1,5 +1,11 @@
-import { greeting } from "../src/index";
+import { LinearGradient, RadialGradient, Stop } from "../src/index";
 
-test("index", function () {
-    expect(greeting("World")).toBe("Hello, World!");
+test("LinearGradient", function () {
+    expect(typeof LinearGradient === 'function').toBe(true);
+});
+test("RadialGradient", function () {
+    expect(typeof RadialGradient === 'function').toBe(true);
+});
+test("Stop", function () {
+    expect(typeof Stop === 'function').toBe(true);
 });
